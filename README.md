@@ -1,6 +1,6 @@
 # STM32F103 Embedded Demos
 
-Embedded C demos for the **STM32F103C8T6**, built while working through an online STM32 course (江协科技 / Jiangxie Technology). All projects use the **STM32F10x Standard Peripheral Library** in **Keil MDK**.
+Embedded C demos for the **STM32F103C8T6**, built while working through an online STM32 course. All projects use the **STM32F10x Standard Peripheral Library** in **Keil MDK**.
 
 Each folder is a self-contained Keil project (`*.uvprojx`) with the usual layout: `User/` (main.c), `Hardware/` (module drivers), `System/` (delay / timer helpers), `Library/` (Standard Peripheral Library), `Start/` (startup and CMSIS files).
 
