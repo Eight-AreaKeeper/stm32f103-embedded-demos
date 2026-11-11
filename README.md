@@ -23,7 +23,7 @@ Each folder is a self-contained Keil project (`*.uvprojx`) with the usual layout
 | `6-4PWM_SERVO` | Servo control: each button press adds 30° (wraps after 180°), angle shown on OLED | TIM4 PWM (PB8), GPIO |
 | `6-6IPUT_CAPTURE` | Generates a 1 kHz PWM on PA0 and measures its frequency with input capture on PA6 | TIM2 PWM, TIM3 input capture |
 | `6-7PWMI_DUTYCYCLE` | Same setup in PWM-input mode: measures both frequency and duty cycle on PA6 | TIM2 PWM, TIM3 PWMI |
-| `6-8编码器接口测速` | Encoder speed measurement: TIM3 encoder interface (PA6/PA7) read once per second by a TIM2 interrupt | TIM encoder interface, TIM interrupt |
+| `6-8ENCODER_SPEED` | Encoder speed measurement: TIM3 encoder interface (PA6/PA7) read once per second by a TIM2 interrupt | TIM encoder interface, TIM interrupt |
 | `7-1AD_CHANNEL` | Single-channel ADC on PA0: shows raw value (0–4095) and converted voltage | ADC1, GPIO (analog) |
 | `7-2AD_MULTICHANNEL` | Reads 4 ADC channels (PA0–PA3: potentiometer, light sensor, thermistor, reflective IR) and shows all on OLED | ADC1, GPIO (analog) |
 | `8-1DMA_DATATRANSFER` | Work in progress: contains a DMA1 Channel1 driver (`MyDMA.c`); `main.c` is still the OLED template | DMA |
